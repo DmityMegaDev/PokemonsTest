@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d3619cd1-f3d1-4dc8-86a3-8e256b9e549f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2CFWBrcg6wn0i0fNxe1h3AwFXzZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript.Linters.JSLint" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/App" />
+      <recent name="$PROJECT_DIR$/src/components/pokemonCard" />
+      <recent name="$PROJECT_DIR$/src/components/pokemonDescription" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/App" />
+      <recent name="$PROJECT_DIR$/src/components/pokemonCard" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3619cd1-f3d1-4dc8-86a3-8e256b9e549f" name="Default Changelist" comment="" />
+      <created>1658398680753</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658398680753</updated>
+      <workItem from="1658398684876" duration="6459000" />
+      <workItem from="1658482919477" duration="4871000" />
+      <workItem from="1658491218951" duration="21077000" />
+      <workItem from="1658758527692" duration="1594000" />
+      <workItem from="1658773273868" duration="5864000" />
+      <workItem from="1658842634934" duration="1153000" />
+      <workItem from="1658844678086" duration="32000" />
+      <workItem from="1658845953055" duration="354000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="458" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1658614387878">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state x="458" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.815@0.25.1440.815" timestamp="1658614387878" />
+    <state x="229" y="68" key="SettingsEditor" timestamp="1658696042590">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state x="229" y="68" key="SettingsEditor/0.25.1440.815@0.25.1440.815" timestamp="1658696042590" />
+    <state x="421" y="187" width="597" height="492" key="find.popup" timestamp="1658758639721">
+      <screen x="0" y="25" width="1440" height="817" />
+    </state>
+    <state x="421" y="187" width="597" height="490" key="find.popup/0.25.1440.815@0.25.1440.815" timestamp="1658531531164" />
+    <state x="421" y="187" width="597" height="492" key="find.popup/0.25.1440.817@0.25.1440.817" timestamp="1658758639721" />
+    <state x="460" y="331" key="git4idea.ui.GitResetDialog" timestamp="1658696066530">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state x="460" y="331" key="git4idea.ui.GitResetDialog/0.25.1440.815@0.25.1440.815" timestamp="1658696066530" />
+    <state x="385" y="164" width="670" height="676" key="search.everywhere.popup" timestamp="1658696064427">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state x="385" y="164" width="670" height="676" key="search.everywhere.popup/0.25.1440.815@0.25.1440.815" timestamp="1658696064427" />
+  </component>
+</project>
