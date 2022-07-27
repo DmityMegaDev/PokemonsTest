@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/PokemonsTest/static/css/main.0512c44b.css",
-    "main.js": "/PokemonsTest/static/js/main.ae942b38.js",
-    "static/js/787.86f9dd6d.chunk.js": "/PokemonsTest/static/js/787.86f9dd6d.chunk.js",
-    "index.html": "/PokemonsTest/index.html",
-    "main.0512c44b.css.map": "/PokemonsTest/static/css/main.0512c44b.css.map",
-    "main.ae942b38.js.map": "/PokemonsTest/static/js/main.ae942b38.js.map",
-    "787.86f9dd6d.chunk.js.map": "/PokemonsTest/static/js/787.86f9dd6d.chunk.js.map"
+    "main.css": "/pokemons/static/css/main.0512c44b.css",
+    "main.js": "/pokemons/static/js/main.06b92fcf.js",
+    "static/js/787.86f9dd6d.chunk.js": "/pokemons/static/js/787.86f9dd6d.chunk.js",
+    "index.html": "/pokemons/index.html",
+    "main.0512c44b.css.map": "/pokemons/static/css/main.0512c44b.css.map",
+    "main.06b92fcf.js.map": "/pokemons/static/js/main.06b92fcf.js.map",
+    "787.86f9dd6d.chunk.js.map": "/pokemons/static/js/787.86f9dd6d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0512c44b.css",
-    "static/js/main.ae942b38.js"
+    "static/js/main.06b92fcf.js"
   ]
 }
