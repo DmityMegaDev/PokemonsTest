@@ -13,6 +13,9 @@ export const Main = styled.div`
   &:hover {
   box-shadow: 3px 14px 26px 2px rgb(0 0 0 / 80%);
   }
+      @media (max-width: 923px) {
+    width: 100%;
+  }
 `;
 
 export const ImageStyle = styled.img`

@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3619cd1-f3d1-4dc8-86a3-8e256b9e549f" name="Default Changelist" comment="" />
+    <list default="true" id="d3619cd1-f3d1-4dc8-86a3-8e256b9e549f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/styledComponents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/styledComponents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pokemonCard/pokemonCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pokemonCard/pokemonCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pokemonCard/styledComponents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pokemonCard/styledComponents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pokemonDescription/pokemonDescription.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pokemonDescription/pokemonDescription.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pokemonDescription/styledComponents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pokemonDescription/styledComponents.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +37,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript.Linters.JSLint" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
@@ -43,6 +54,82 @@
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
+  </component>
+  <component name="RunManager" selected="Jest.correct todolist should be removed">
+    <configuration name="correct todolist should be removed" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/store/__tests__/pokemons.test.js" />
+      <test-names>
+        <test-name value="correct todolist should be removed" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="mathes snapahot" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/__tests__/pokemonCard.test.js" />
+      <test-names>
+        <test-name value="mathes snapahot" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="should render PokemonCard component" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/__tests__/pokemonCard.test.js" />
+      <test-names>
+        <test-name value="should render PokemonCard component" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="should render todo component" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/__tests__/pokemonCard.test.js" />
+      <test-names>
+        <test-name value="should render todo component" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/__tests__/pokemonCard.test.js" />
+      <test-names>
+        <test-name value="test" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.correct todolist should be removed" />
+        <item itemvalue="Jest.should render PokemonCard component" />
+        <item itemvalue="Jest.mathes snapahot" />
+        <item itemvalue="Jest.should render todo component" />
+        <item itemvalue="Jest.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -61,7 +148,7 @@
       <workItem from="1658773273868" duration="5864000" />
       <workItem from="1658842634934" duration="1153000" />
       <workItem from="1658844678086" duration="32000" />
-      <workItem from="1658845953055" duration="354000" />
+      <workItem from="1658845953055" duration="14325000" />
     </task>
     <servers />
   </component>
@@ -73,22 +160,87 @@
       <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state x="458" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.815@0.25.1440.815" timestamp="1658614387878" />
+    <state width="711" height="371" key="GridCell.Tab.0.bottom" timestamp="1658902498893">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state width="711" height="371" key="GridCell.Tab.0.bottom/0.25.1440.815@0.25.1440.815" timestamp="1658902498893" />
+    <state width="711" height="371" key="GridCell.Tab.0.center" timestamp="1658902498892">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state width="711" height="371" key="GridCell.Tab.0.center/0.25.1440.815@0.25.1440.815" timestamp="1658902498892" />
+    <state width="711" height="371" key="GridCell.Tab.0.left" timestamp="1658902498891">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state width="711" height="371" key="GridCell.Tab.0.left/0.25.1440.815@0.25.1440.815" timestamp="1658902498891" />
+    <state width="711" height="371" key="GridCell.Tab.0.right" timestamp="1658902498893">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state width="711" height="371" key="GridCell.Tab.0.right/0.25.1440.815@0.25.1440.815" timestamp="1658902498892" />
+    <state width="795" height="258" key="GridCell.Tab.1.bottom" timestamp="1658855529515">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state width="795" height="258" key="GridCell.Tab.1.bottom/0.25.1440.815@0.25.1440.815" timestamp="1658855529514" />
+    <state width="795" height="258" key="GridCell.Tab.1.center" timestamp="1658855529514">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state width="795" height="258" key="GridCell.Tab.1.center/0.25.1440.815@0.25.1440.815" timestamp="1658855529514" />
+    <state width="795" height="258" key="GridCell.Tab.1.left" timestamp="1658855529513">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state width="795" height="258" key="GridCell.Tab.1.left/0.25.1440.815@0.25.1440.815" timestamp="1658855529513" />
+    <state width="795" height="258" key="GridCell.Tab.1.right" timestamp="1658855529514">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state width="795" height="258" key="GridCell.Tab.1.right/0.25.1440.815@0.25.1440.815" timestamp="1658855529514" />
+    <state width="795" height="258" key="GridCell.Tab.2.bottom" timestamp="1658855529516">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state width="795" height="258" key="GridCell.Tab.2.bottom/0.25.1440.815@0.25.1440.815" timestamp="1658855529516" />
+    <state width="795" height="258" key="GridCell.Tab.2.center" timestamp="1658855529515">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state width="795" height="258" key="GridCell.Tab.2.center/0.25.1440.815@0.25.1440.815" timestamp="1658855529515" />
+    <state width="795" height="258" key="GridCell.Tab.2.left" timestamp="1658855529515">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state width="795" height="258" key="GridCell.Tab.2.left/0.25.1440.815@0.25.1440.815" timestamp="1658855529515" />
+    <state width="795" height="258" key="GridCell.Tab.2.right" timestamp="1658855529515">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state width="795" height="258" key="GridCell.Tab.2.right/0.25.1440.815@0.25.1440.815" timestamp="1658855529515" />
+    <state width="795" height="258" key="GridCell.Tab.3.bottom" timestamp="1658855529517">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state width="795" height="258" key="GridCell.Tab.3.bottom/0.25.1440.815@0.25.1440.815" timestamp="1658855529517" />
+    <state width="795" height="258" key="GridCell.Tab.3.center" timestamp="1658855529516">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state width="795" height="258" key="GridCell.Tab.3.center/0.25.1440.815@0.25.1440.815" timestamp="1658855529516" />
+    <state width="795" height="258" key="GridCell.Tab.3.left" timestamp="1658855529516">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state width="795" height="258" key="GridCell.Tab.3.left/0.25.1440.815@0.25.1440.815" timestamp="1658855529516" />
+    <state width="795" height="258" key="GridCell.Tab.3.right" timestamp="1658855529516">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state width="795" height="258" key="GridCell.Tab.3.right/0.25.1440.815@0.25.1440.815" timestamp="1658855529516" />
     <state x="229" y="68" key="SettingsEditor" timestamp="1658696042590">
       <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state x="229" y="68" key="SettingsEditor/0.25.1440.815@0.25.1440.815" timestamp="1658696042590" />
-    <state x="421" y="187" width="597" height="492" key="find.popup" timestamp="1658758639721">
+    <state x="421" y="187" width="597" height="492" key="find.popup" timestamp="1658918528329">
       <screen x="0" y="25" width="1440" height="817" />
     </state>
-    <state x="421" y="187" width="597" height="490" key="find.popup/0.25.1440.815@0.25.1440.815" timestamp="1658531531164" />
-    <state x="421" y="187" width="597" height="492" key="find.popup/0.25.1440.817@0.25.1440.817" timestamp="1658758639721" />
+    <state x="421" y="187" width="597" height="490" key="find.popup/0.25.1440.815@0.25.1440.815" timestamp="1658858259740" />
+    <state x="421" y="187" width="597" height="492" key="find.popup/0.25.1440.817@0.25.1440.817" timestamp="1658918528329" />
     <state x="460" y="331" key="git4idea.ui.GitResetDialog" timestamp="1658696066530">
       <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state x="460" y="331" key="git4idea.ui.GitResetDialog/0.25.1440.815@0.25.1440.815" timestamp="1658696066530" />
-    <state x="385" y="164" width="670" height="676" key="search.everywhere.popup" timestamp="1658696064427">
-      <screen x="0" y="25" width="1440" height="815" />
+    <state x="385" y="164" width="670" height="678" key="search.everywhere.popup" timestamp="1658918554339">
+      <screen x="0" y="25" width="1440" height="817" />
     </state>
     <state x="385" y="164" width="670" height="676" key="search.everywhere.popup/0.25.1440.815@0.25.1440.815" timestamp="1658696064427" />
+    <state x="385" y="164" width="670" height="678" key="search.everywhere.popup/0.25.1440.817@0.25.1440.817" timestamp="1658918554339" />
   </component>
 </project>

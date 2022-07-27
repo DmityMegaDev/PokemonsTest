@@ -5,7 +5,7 @@ import {Main, ImageStyle} from './styledComponents';
 
 const PokemonCard = ({pokemonData}) => {
 
-    const {id, name} = pokemonData
+    const {name} = pokemonData
 
     const dispatch = useDispatch();
 
@@ -39,9 +39,9 @@ const PokemonCard = ({pokemonData}) => {
         dispatch(setSelectedPokemonData(pokemonData));
     };
 
-
     return (
         <Main
+            data-testid='pokemonCardId'
             onClick={handleClick}
             backgroundStyle={setTypeColor()}
         >

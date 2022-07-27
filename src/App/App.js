@@ -1,11 +1,19 @@
 import React, {useEffect, useState} from 'react'
 import Select from "react-select";
-import {getNextPage} from "../actions";
-import {adoptTypeList} from "../helpers";
 import {useDispatch, useSelector} from "react-redux";
 import {pokemonTypes} from "../constants/pocemonTypes";
+import {adoptPokemonList, adoptTypeList} from "../helpers";
+import {getNextPage, setSelectedPokemonData} from "../actions";
 import PokemonCard from "../components/pokemonCard/pokemonCard";
-import {Main, ContentWrapper, CardsWrapper, MoreButton} from "./styledComponents";
+import {
+    Main,
+    Header,
+    MoreButton,
+    CardsWrapper,
+    SelectWrapper,
+    ContentWrapper,
+    LeftSideWrapper,
+} from "./styledComponents";
 import PokemonDescription from "../components/pokemonDescription/pokemonDescription";
 
 function App() {
@@ -28,6 +36,12 @@ function App() {
 
     const [type, setType] = useState('');
     const [filteredList, setFilteredList] = useState(pokemons);
+
+    const pokemonsList = useSelector((state) => {
+        return state.pokemonsReducer.pokemons
+    });
+
+    const adoptedPokemonList = adoptPokemonList(pokemonsList);
 
     useEffect(() => {
         setFilteredList(pokemons)
@@ -57,33 +71,47 @@ function App() {
         filterData();
     }, [type])
 
+    const pokemonSearchHandler = (e) => {
+        dispatch(setSelectedPokemonData(e));
+    };
+
     return (
         <Main>
-            <h1>{'Pokemons'}</h1>
-            <div style={{maxWidth: '300px'}}>
-                <Select
-                    value={type}
-                    onChange={sortTypeHandler}
-                    options={adoptedTypesList}
-                    placeholder={'Select pokemon type'}
-                />
-            </div>
+            <Header>
+                <h1 style={{margin: '0px'}}>{'Pokemons'}</h1>
+                <SelectWrapper>
+                    <Select
+                        value={type}
+                        onChange={sortTypeHandler}
+                        options={adoptedTypesList}
+                        placeholder={'Select pokémon type...'}
+                    />
+                </SelectWrapper>
+                <SelectWrapper>
+                    <Select
+                        onChange={pokemonSearchHandler}
+                        options={adoptedPokemonList}
+                        placeholder={'Choose a pokémon...'}
+                    />
+                </SelectWrapper>
+            </Header>
             <ContentWrapper>
-                <div style={{width: '60%', padding: '20px'}}>
+                <LeftSideWrapper>
                     <CardsWrapper>
-                        {filteredList.length > 0 && filteredList.map((pokemon, index) => (
-                            <PokemonCard
+                        {filteredList.length > 0 && filteredList.map((pokemon, index) => {
+                            console.log(pokemon)
+                            return <PokemonCard
                                 key={index}
                                 pokemonData={pokemon}
                             />
-                        ))}
+                        })}
                     </CardsWrapper>
                     {filteredList.length > 0
                     && <MoreButton
                         onClick={moreButtonHandler}>
                         {'More'}
                     </MoreButton>}
-                </div>
+                </LeftSideWrapper>
                 <PokemonDescription/>
             </ContentWrapper>
         </Main>
