@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d3619cd1-f3d1-4dc8-86a3-8e256b9e549f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.correct todolist should be removed">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="correct todolist should be removed" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -87,39 +88,33 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="should render todo component" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
       <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/__tests__/pokemonCard.test.js" />
-      <test-names>
-        <test-name value="should render todo component" />
-      </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="predeploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="predeploy" />
+      </scripts>
       <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/__tests__/pokemonCard.test.js" />
-      <test-names>
-        <test-name value="test" />
-      </test-names>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.predeploy" />
         <item itemvalue="Jest.correct todolist should be removed" />
         <item itemvalue="Jest.should render PokemonCard component" />
         <item itemvalue="Jest.mathes snapahot" />
-        <item itemvalue="Jest.should render todo component" />
-        <item itemvalue="Jest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +135,7 @@
       <workItem from="1658773273868" duration="5864000" />
       <workItem from="1658842634934" duration="1153000" />
       <workItem from="1658844678086" duration="32000" />
-      <workItem from="1658845953055" duration="16426000" />
+      <workItem from="1658845953055" duration="16971000" />
     </task>
     <servers />
   </component>
@@ -152,22 +147,26 @@
       <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state x="458" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.815@0.25.1440.815" timestamp="1658614387878" />
-    <state width="711" height="371" key="GridCell.Tab.0.bottom" timestamp="1658902498893">
-      <screen x="0" y="25" width="1440" height="815" />
+    <state width="728" height="371" key="GridCell.Tab.0.bottom" timestamp="1658921920855">
+      <screen x="0" y="25" width="1440" height="817" />
     </state>
     <state width="711" height="371" key="GridCell.Tab.0.bottom/0.25.1440.815@0.25.1440.815" timestamp="1658902498893" />
-    <state width="711" height="371" key="GridCell.Tab.0.center" timestamp="1658902498892">
-      <screen x="0" y="25" width="1440" height="815" />
+    <state width="728" height="371" key="GridCell.Tab.0.bottom/0.25.1440.817@0.25.1440.817" timestamp="1658921920855" />
+    <state width="728" height="371" key="GridCell.Tab.0.center" timestamp="1658921920853">
+      <screen x="0" y="25" width="1440" height="817" />
     </state>
     <state width="711" height="371" key="GridCell.Tab.0.center/0.25.1440.815@0.25.1440.815" timestamp="1658902498892" />
-    <state width="711" height="371" key="GridCell.Tab.0.left" timestamp="1658902498891">
-      <screen x="0" y="25" width="1440" height="815" />
+    <state width="728" height="371" key="GridCell.Tab.0.center/0.25.1440.817@0.25.1440.817" timestamp="1658921920853" />
+    <state width="728" height="371" key="GridCell.Tab.0.left" timestamp="1658921920852">
+      <screen x="0" y="25" width="1440" height="817" />
     </state>
     <state width="711" height="371" key="GridCell.Tab.0.left/0.25.1440.815@0.25.1440.815" timestamp="1658902498891" />
-    <state width="711" height="371" key="GridCell.Tab.0.right" timestamp="1658902498893">
-      <screen x="0" y="25" width="1440" height="815" />
+    <state width="728" height="371" key="GridCell.Tab.0.left/0.25.1440.817@0.25.1440.817" timestamp="1658921920852" />
+    <state width="728" height="371" key="GridCell.Tab.0.right" timestamp="1658921920854">
+      <screen x="0" y="25" width="1440" height="817" />
     </state>
     <state width="711" height="371" key="GridCell.Tab.0.right/0.25.1440.815@0.25.1440.815" timestamp="1658902498892" />
+    <state width="728" height="371" key="GridCell.Tab.0.right/0.25.1440.817@0.25.1440.817" timestamp="1658921920854" />
     <state width="795" height="258" key="GridCell.Tab.1.bottom" timestamp="1658855529515">
       <screen x="0" y="25" width="1440" height="815" />
     </state>
